@@ -806,12 +806,6 @@ function App() {
         </div>
         <p className="text-sm mt-4">&copy; 2025 {t('appName')}. {t('allRightsReserved')}</p>
       </footer>
-
-      {/* External scripts and styles */}
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" xintegrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0V4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
-      <script src="https://cdn.tailwindcss.com"></script>
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-      <style>{`body { font-family: 'Inter', sans-serif; }`}</style>
     </div>
   );
 }
